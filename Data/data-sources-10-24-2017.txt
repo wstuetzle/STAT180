@@ -1,0 +1,6 @@
+Sources for data sets that might be useful for IDS (10-24-2017)
+===============================================================
+
+http://biostat.mc.vanderbilt.edu/wiki/Main/DataSets
+Has many data sets, mostly but not all medical. Has Boston Housing
+data and Titanic data.

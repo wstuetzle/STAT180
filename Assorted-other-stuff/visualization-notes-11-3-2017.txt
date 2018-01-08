@@ -1,0 +1,100 @@
+Notes on visualization
+======================
+
+Visualizing distributions
+-------------------------
+
+1. Univariate distributions
+  - Categorical:  barplot (count or relative frequency)
+  - Numerical:  histogram, boxplot, violin plot
+
+2. Bivariate distributions
+   It may be better to draw two graphs, on showing the marginal of
+   V1 and the other showing the conditional of V2|V1.
+
+   Two categorical variables:
+   - Barplot of V1 showing frequencies (counts) and grouped barplot of
+     V2|V1 showing relative frequencies
+   (- Mosaic plot)
+   
+   One categorical variable V1 and one numerical variable V2:
+   - Barplot of V1 showing frequencies and boxplots or violin plots
+     showing conditional distribution of V2|V1  or
+   - Histogram of V2 and k curves showing conditional probabilities of
+     V1 = ci|V2. Curves can be obtained via binning or smoothing
+
+   Two numerical variables:
+   - scatterplot, density plot, hexbin plot
+
+We need a version of nested barplot where there is a primary
+categorical variable V1 with k1 categories and a secondary categorical
+categorical variable with k2 categories. Each of the k1 primary "bars" would
+itself be a barplot with k2 bars. The heights of the secondary bars
+could encode the conditional of V2 given the particular value of
+V1. Or they could encode the values of any function defined for k1*k2
+values of (V1, V2). The input should be k1 x k2 table.
+
+We should be able to use tbl.pivot
+
+
+
+ 
+   
+   
+
+
+=================================================================
+
+Look at Titanic data.
+
+The data are in the form of a table. Rows correspond to passengers,
+columns correspond to properties (or "features", or "characteristics")
+of passengers, like "survival", "age", "cabin class", etc.
+
+For example the first element of the first row...
+
+Our goal here is to "understand" these data. By "understand" we mean
+being able to answer questions like
+
+1. what fraction of passengers survived?
+2. what fraction of passengers traveled 1st class, 2nd class, 3rd
+   class
+3. what was the typical age of passengers
+4. what was the age distribution?
+
+5. did the likelihood of survical depend on gender (and what exactly
+   do we mean by "depend on")?
+6. did the likelihood of survival depend on cabin class
+7. were women in 1st class cabins more likely to survive than women in
+   2nd or 3rd class cabins.
+8. did presence of family members on board influence the likelihood of
+   survival.
+
+The data table has ???? entries. We will not get the answers to these
+questions by staring at the numbers. To gain insight we will have to
+compute numerical summaries.
+
+Questions 1..4 are involve individual variables.
+Question 5..8 each involve several variables
+
+The meaning of (1) and (2) is obvious. Let's just compute them.
+
+Terminology: "survival" and "cabin class" are categorical variables:
+It does not make sense to add or subtract or take averages. We can
+encde the possible values as numbers but that does not change.
+
+age is numerical variable - it makes sense to add or subtract or take
+an average.
+
+What do we mean by "distribution of a variable". Consider cbin class.
+
+
+Let's first look at categorical variable taking k different values. let's call
+the values v1....vk. The distribution of X
+
+
+
+
+
+
+

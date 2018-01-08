@@ -1,0 +1,69 @@
+Todo for STAT180 TAs (12-11-2017)
+=================================
+
+The progamming language for the course will be Python. We will make
+extensive use of Jupyter notebooks. In particular, the students will
+do all their computing using notebooks.
+
+=> Familiarize yourself with Python and Jupyter notebooks
+
+-----------------------------------------------------------------
+
+I have not decided yet which notebook server I will use. The most
+likely option is the MS server   notebooks.azure.com
+
+=> Familiarize yourself with the login process and the uploading and
+   downloading of notebooks.
+
+-----------------------------------------------------------------
+
+STAT180 is based on the Data-8 course developed at UC Berkeley.
+There is a lot of material on the Web.
+
+The main web page for the course is
+   data-8.github.io  which is also accessible as
+   data8.org
+It has many links, for example to Lecture schedules, lecture slides,
+
+=> Take a look at   https://github.com/data-8/  and  data8.org
+
+-----------------------------------------------------------------
+
+In particular there is the textbook "Foundations of Data Science"
+which consists of a collection of Jupyter notebooks. The textbook is
+at  https://www.inferentialthinking.com/
+
+=> Take a look at the textbook, especially at the chapters about
+   programming with Python ("Programming in Python", "Data Types",...,
+   "Randomness")
+
+-----------------------------------------------------------------
+
+I will start the course with a case study - analysis and visualization
+of the Titanic data set.
+
+=> Take a look at 
+   https://github.com/prabhath6/Data-analysis-of-titanic-using-python
+
+-----------------------------------------------------------------
+
+We will not use Pandas in the course. Instead we will use a module
+"datascience"  developed by the Berkeley folks. The source is at
+   https://github.com/data-8/datascience.
+You can install the module with   pip install datascience
+A nice summary of the functionality is at
+   https://github.com/wstuetzle/data8assets/blob/gh-pages/exam/data8-sp17-midterm-guide.pdf
+
+=> Familiarize yourself with the "datascience" module
+
+-----------------------------------------------------------------
+
+To get an idea about the homeworks and exams
+
+=> Take a quick look at
+   https://github.com/wstuetzle/data8assets/tree/gh-pages/materials/sp17
+
+
+
+
+

@@ -1,0 +1,10 @@
+Todo list for start of class (12-20-2017)
+=========================================
+
+Make page with links to useful material
+
+Make computing page - basics of notebooks, connecting to Azure,
+uploading and downloading material
+
+Make questionnaire notebook to be filled out in 1st lab
+session

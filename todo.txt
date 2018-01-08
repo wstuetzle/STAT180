@@ -1,0 +1,9 @@
+Todo
+====
+
+- Go to canvas site
+- Review syllabus. "Go to Computational and ..
+- Mention survey - under "Quizzes" - due midnight Friday
+- Talk about Labs - attendance obligatory
+- Go through Introduction and motivation
+- Start with Titanic analysis

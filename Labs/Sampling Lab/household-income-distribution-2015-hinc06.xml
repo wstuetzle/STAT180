@@ -1,0 +1,1860 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Werner Stuetzle</LastAuthor>
+  <Created>2016-08-17T14:51:07Z</Created>
+  <LastSaved>2017-05-12T22:02:41Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13520</WindowHeight>
+  <WindowWidth>31740</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>140</WindowTopY>
+  <MaxChange>0.0001</MaxChange>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Size="9" ss:Underline="Single"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Size="9"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Size="9"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#99CCFF"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#99CCFF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#339966" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="#,##0"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="hinc06">
+  <Table ss:ExpandedColumnCount="28" ss:ExpandedRowCount="51" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="149"/>
+   <Column ss:StyleID="s62" ss:Width="68" ss:Span="8"/>
+   <Column ss:Index="11" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="32"/>
+   <Column ss:StyleID="s62" ss:Width="68" ss:Span="16"/>
+   <Row ss:AutoFitHeight="0" ss:Height="3" ss:StyleID="s63">
+    <Cell ss:MergeAcross="27"><Data ss:Type="String">Table with row headers in column A and column headers in rows 6, 7, and 8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeAcross="27" ss:StyleID="s67"><Data ss:Type="String">Table HINC-06. Income Distribution to $250,000 or More for Households: 2015</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+    <Cell ss:MergeAcross="27" ss:HRef="../../../::www2.census.gov:programs-surveys:cps:techdocs:cpsmar16.pdf"><Data
+      ss:Type="String">For information on confidentiality protection, sampling error, nonsampling error, and definitions, see www2.census.gov/programs-surveys/cps/techdocs/cpsmar16.pdf</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s71">
+    <Cell ss:MergeAcross="27"><Data ss:Type="String">Source: U.S. Census Bureau, Current Population Survey, 2016 Annual Social and Economic Supplement.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
+    <Cell ss:MergeAcross="27" ss:StyleID="s74"><Data ss:Type="String">(Numbers in thousands. Households as of March of the following year. A.O.I.C. stands for alone or in combination.  Standard errors calculated using replicate weights)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell ss:StyleID="s76"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">All Races</Data></Cell>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">White A.O.I.C.</Data></Cell>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">White alone (1)</Data></Cell>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">White alone, not Hispanic</Data></Cell>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Black A.O.I.C.</Data></Cell>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Black alone (2)</Data></Cell>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Asian A.O.I.C.</Data></Cell>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Asian alone (3)</Data></Cell>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">Hispanic (any race)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:MergeAcross="1"><Data ss:Type="String">Mean Income</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1"><Data ss:Type="String">Mean Income</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1"><Data ss:Type="String">Mean Income</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1"><Data ss:Type="String">Mean Income</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1"><Data ss:Type="String">Mean Income</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1"><Data ss:Type="String">Mean Income</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1"><Data ss:Type="String">Mean Income</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1"><Data ss:Type="String">Mean Income</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1"><Data ss:Type="String">Mean Income</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Income of Household</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Dollars</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Standard Error</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Dollars</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Standard Error</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Dollars</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Standard Error</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Dollars</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Standard Error</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Dollars</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Standard Error</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Dollars</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Standard Error</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Dollars</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Standard Error</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Dollars</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Standard Error</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Dollars</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Standard Error</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String"><Font html:Color="#FFFFFF"
+       xmlns="http://www.w3.org/TR/REC-html40">....</Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">Total</Font></Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">125819</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">79263</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">403</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">100990</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">82052</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">457</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">99313</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">82226</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">470</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">84445</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">85585</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">531</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">17322</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">54805</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">867</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">16539</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">54352</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">861</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">6640</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">105132</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2199</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">6328</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">105417</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2227</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">16667</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">63612</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">837</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Under $5,000</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4235</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1080</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2796</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1094</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2709</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1097</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2132</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1070</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1114</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1151</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">77</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1068</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1184</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">78</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">288</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">532</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">155</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">265</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">479</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">163</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">653</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1180</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">94</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$5,000 to  $9,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4071</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">8018</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2647</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">8033</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2569</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">8035</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2004</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">8091</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1212</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">8031</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1165</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">8038</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">145</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">7695</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">190</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">138</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">7625</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">195</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">673</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">7839</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">82</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$10,000 to $14,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">6324</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">12397</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4646</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">12461</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4561</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">12467</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3713</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">12560</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1393</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">12231</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1354</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">12241</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">225</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">12096</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">145</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">12031</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">944</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">12106</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">66</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$15,000 to $19,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">6470</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">17297</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4922</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">17323</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4813</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">17327</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3923</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">17371</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1259</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">17194</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1205</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">17187</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">226</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">17161</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">146</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">209</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">17166</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">159</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">992</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">17137</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">69</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$20,000 to $24,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">6765</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">22199</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">5290</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">22229</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">5202</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">22225</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4149</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">22273</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1188</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">22163</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1141</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">22156</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">232</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">21910</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">171</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">218</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">21861</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">171</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1175</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">22056</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">59</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$25,000 to $29,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">6222</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">27116</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4958</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">27111</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4877</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">27112</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3933</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">27160</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">995</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">27153</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">965</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">27157</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">27212</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">169</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">203</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">27217</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">170</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1028</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">26921</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">67</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$30,000 to $34,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">6354</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">32027</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">5024</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">32069</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4949</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">32070</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3971</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">32131</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1049</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">31863</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">68</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">998</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">31892</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">69</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">196</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">31702</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">173</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">190</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">31694</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">178</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1083</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">31819</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">67</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$35,000 to $39,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">5743</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">37115</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4620</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">37142</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4531</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">37139</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3696</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">37179</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">855</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">36991</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">77</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">820</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">36977</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">76</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">227</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">37124</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">147</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">214</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">37117</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">152</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">924</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">36929</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">72</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$40,000 to $44,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">5203</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">41973</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4191</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">42013</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4132</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">42012</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3358</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">42049</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">756</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">41799</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">729</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">41806</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">84</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">226</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">41704</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">143</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">215</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">41713</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">142</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">836</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">41846</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">74</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$45,000 to $49,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">5002</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">47180</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4006</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">47177</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3924</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">47175</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3239</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">47228</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">734</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">47165</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">698</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">47170</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">93</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">228</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">47161</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">143</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">215</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">47155</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">148</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">758</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">46972</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">72</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$50,000 to $54,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">5078</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">51900</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4075</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">51925</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4001</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">51923</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3376</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">51928</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">715</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">51853</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">683</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">51828</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">239</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">51585</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">161</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">232</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">51573</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">165</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">726</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">51933</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">71</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$55,000 to $59,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4140</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">57119</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3393</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">57125</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3298</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">57122</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2758</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">57170</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">53</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">541</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">57119</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">99</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">497</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">57125</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">201</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">57001</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">167</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">182</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">56931</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">171</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">619</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">56879</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">91</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$60,000 to $64,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4367</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61940</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3509</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61969</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3462</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61979</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2905</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">62011</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">588</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61879</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">107</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">558</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61904</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">233</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61569</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">172</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">226</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61588</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">174</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">635</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61820</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">82</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$65,000 to $69,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3733</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">67102</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3064</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">67134</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3032</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">67130</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2584</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">67166</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">452</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">67003</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">112</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">442</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">66969</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">109</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">188</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">66964</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">189</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">177</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">67010</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">198</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">494</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">66904</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">91</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$70,000 to $74,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3683</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">72115</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3013</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">72140</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2957</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">72136</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2473</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">72176</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">476</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">71964</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">122</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">444</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">71917</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">169</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">72139</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">190</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">163</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">72148</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">195</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">548</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">72004</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">85</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$75,000 to $79,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3650</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">77022</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3086</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">77035</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3029</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">77032</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2600</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">77023</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">361</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">77052</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">131</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">331</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">77079</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">130</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">192</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">76741</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">168</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">182</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">76691</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">170</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">487</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">77041</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">92</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$80,000 to $84,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3354</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">82056</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2775</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">82065</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2741</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">82065</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2376</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">82107</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">367</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">82047</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">131</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">358</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">82039</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">134</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">180</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">82028</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">174</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">172</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">81968</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">175</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">397</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">81802</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">112</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$85,000 to $89,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2893</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">87165</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2436</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">87155</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2402</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">87155</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2131</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">87175</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">316</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">87248</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">148</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">293</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">87313</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">151</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">115</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">87029</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">198</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">114</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">87019</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">322</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">87173</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">115</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$90,000 to $94,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2850</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">92019</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2360</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">92060</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2328</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">92050</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2033</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">92055</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">295</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">91852</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">138</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">284</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">91809</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">139</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">192</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">91861</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">176</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">184</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">91788</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">167</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">331</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">92016</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">109</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$95,000 to $99,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2452</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">97107</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2086</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">97070</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">53</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2044</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">97067</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1800</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">97090</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">218</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">97396</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">160</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">208</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">97438</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">166</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">129</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">97219</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">226</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">123</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">97241</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">231</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">267</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">96847</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">115</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$100,000 to $104,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2792</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">101908</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2375</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">101935</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2341</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">101943</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2112</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">101950</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">251</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">101950</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">139</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">239</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">101964</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">142</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">162</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">101402</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">181</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">158</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">101416</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">183</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">253</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">101844</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">120</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$105,000 to $109,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2232</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">107092</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1860</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">107082</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1841</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">107097</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1641</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">107116</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">213</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">107279</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">170</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">107356</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">174</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">149</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">106911</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">177</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">145</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">106941</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">178</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">221</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">106918</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">136</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$110,000 to $114,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2158</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">112073</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1839</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">112109</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1826</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">112113</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1658</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">112126</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">168</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">111709</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">142</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">168</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">111709</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">142</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">135</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">112026</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">180</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">132</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">112010</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">183</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">187</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">111983</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">177</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$115,000 to $119,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1748</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">117027</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1490</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">117029</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1478</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">117028</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1313</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">117002</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">144</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">117079</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">169</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">142</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">117046</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">171</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">108</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">116949</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">223</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">104</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">116908</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">223</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">173</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">117235</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">180</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$120,000 to $124,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1987</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">121965</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1685</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">121999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1661</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">121992</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1490</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">121993</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">156</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">122015</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">166</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">145</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">121973</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">167</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">139</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">121643</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">133</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">121635</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">197</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">204</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">122019</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">125</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$125,000 to $129,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1675</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">126961</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1462</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">126974</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1440</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">126985</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1315</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">126978</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">149</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">126812</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">182</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">136</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">126903</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">197</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">137</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">127089</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">175</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$130,000 to $134,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1474</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">131990</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">68</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1260</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">131955</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">76</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1247</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">131954</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">76</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1140</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">131949</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">130</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">132102</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">174</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">122</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">132078</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">184</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">72</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">127</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">131975</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">184</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$135,000 to $139,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1380</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">137101</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1168</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">137161</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">72</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1149</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">137168</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">72</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1045</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">137190</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">137076</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">206</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">113</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">137100</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">216</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">136268</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">166</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">87</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">136199</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">167</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">136953</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">202</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$140,000 to $144,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1220</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">141979</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1032</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">141976</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">77</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1012</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">141985</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">78</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">920</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">141969</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">87</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">141555</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">226</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">141643</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">230</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">103</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">142266</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">215</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">142249</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">223</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">116</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">142246</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">205</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$145,000 to $149,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1111</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">147145</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">910</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">147143</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">902</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">147140</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">822</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">147120</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">89</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">147303</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">226</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">104</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">147243</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">233</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">76</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">147060</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">211</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">72</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">92</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">147208</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">233</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$150,000 to $154,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1313</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">151768</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1072</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">151759</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1051</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">151772</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">958</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">151785</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">74</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">115</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">151726</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">207</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">151704</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">215</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">121</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">151598</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">190</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">111</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">151728</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">194</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">115</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">151850</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">211</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$155,000 to $159,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1017</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">157137</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">76</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">854</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">157101</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">850</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">157097</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">781</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">157110</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">88</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">157423</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">233</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">157413</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">233</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">156804</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">227</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$160,000 to $164,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">993</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">162080</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">88</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">825</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">162123</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">98</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">820</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">162123</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">98</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">736</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">162175</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">103</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">94</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">161819</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">246</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">93</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">161843</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">249</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">161697</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">278</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$165,000 to $169,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">761</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">167171</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">652</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">167144</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">89</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">645</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">167142</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">89</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">594</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">167156</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">93</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$170,000 to $174,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">822</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">172199</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">88</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">728</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">172228</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">101</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">706</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">172213</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">650</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">172225</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">106</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">172020</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$175,000 to $179,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">177157</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">99</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">608</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">177146</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">107</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">607</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">177145</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">108</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">561</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">177118</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">115</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$180,000 to $184,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">677</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">182009</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">78</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">570</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">182056</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">564</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">182053</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">519</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">182044</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">99</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$185,000 to $189,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">536</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">187224</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">94</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">446</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">187219</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">97</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">443</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">187222</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">98</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">410</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">187235</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">98</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$190,000 to $194,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">561</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">191951</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">97</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">455</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">191926</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">454</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">191926</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">409</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">191892</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">108</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$195,000 to $199,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">431</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">197339</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">104</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">381</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">197364</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">116</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">379</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">197378</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">116</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">355</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">197358</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">121</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">(B)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$200,000 to $249,999</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3456</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">220874</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">410</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2906</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">220991</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">465</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2875</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">221005</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">466</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">2674</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">221187</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">498</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">220628</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1465</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">182</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">220588</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1451</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">335</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">219766</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1238</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">331</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">219804</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1251</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">231</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">219374</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1372</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="String">$250,000 and over</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">4184</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">411551</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">5980</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3512</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">410189</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">6769</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3464</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">409233</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">6829</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">3190</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">405513</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">6906</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">221</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">463129</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">28033</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">204</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">464525</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">29722</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">460</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">403794</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">17414</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">437</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">401048</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">17727</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">305</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">470622</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">24062</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <PageMargins x:Bottom="0" x:Left="0" x:Right="0" x:Top="0"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Zoom>150</Zoom>
+   <PageLayoutZoom>150</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>10</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <ss:DocumentProperties xmlns="urn:schemas-microsoft-com:office">
+   <ss:Author>whale312</ss:Author>
+   <ss:LastAuthor>whale312</ss:LastAuthor>
+   <ss:Created>2016-07-14T11:50:22</ss:Created>
+   <ss:LastSaved>2016-07-14T11:50:22</ss:LastSaved>
+   <ss:Company>SAS Institute Inc. http://www.sas.com</ss:Company>
+   <ss:Version>9.04.01M3P06242015</ss:Version>
+  </ss:DocumentProperties>
+</Workbook>
