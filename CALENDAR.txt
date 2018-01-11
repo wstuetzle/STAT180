@@ -1,0 +1,17 @@
+Calendar for STAT180 Winter 2018
+================================
+
+W Jan 03: Syllabus, Introduction and motivation
+          IDS-syllabus-11-14-2017
+	  introduction-motivation-1-2-2018
+
+F Jan 05: Jupyter notebooks, numbers, variables and assignment
+          statements
+	  python-intro-part1-1-2-2018
+
+M Jan 08: Call expression, modules, types, strings, type conversion,
+          arrays
+	  python-intro-part2-12-29-2017
+
+W Jan 10: Arrays, array arithmetic, array functions, tables
+          python-intro-part3-1-8-2017
