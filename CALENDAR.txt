@@ -14,4 +14,9 @@ M Jan 08: Call expression, modules, types, strings, type conversion,
 	  python-intro-part2-12-29-2017
 
 W Jan 10: Arrays, array arithmetic, array functions, tables
-          python-intro-part3-1-8-2017
+          python-intro-part3-1-8-2017. Start on Titanic data
+
+F Jan 12: Finish python-intro-part3-1-8-2017. Start on
+          summarizing-visualizing-1-11-2018
+
+M Jan 15: MLK day

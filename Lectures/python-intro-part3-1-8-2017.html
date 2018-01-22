@@ -11726,9 +11726,7 @@ body {
 div#notebook {
   overflow: visible;
   border-top: none;
-}
-
-@media print {
+}@media print {
   div.cell {
     display: block;
     page-break-inside: avoid;
@@ -11749,7 +11747,7 @@ div#notebook {
 
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -11773,8 +11771,7 @@ div#notebook {
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -11784,7 +11781,63 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[131]:</div>
+<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install datascience
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Requirement already satisfied: datascience in /Users/wxs/anaconda3/lib/python3.6/site-packages
+Requirement already satisfied: folium==0.1.5 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from datascience)
+Requirement already satisfied: coveralls==0.5 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from datascience)
+Requirement already satisfied: setuptools in /Users/wxs/anaconda3/lib/python3.6/site-packages (from datascience)
+Requirement already satisfied: coverage==3.7.1 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from datascience)
+Requirement already satisfied: pytest in /Users/wxs/anaconda3/lib/python3.6/site-packages (from datascience)
+Requirement already satisfied: sphinx in /Users/wxs/anaconda3/lib/python3.6/site-packages (from datascience)
+Requirement already satisfied: requests&gt;=1.0.0 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from coveralls==0.5-&gt;datascience)
+Requirement already satisfied: PyYAML&gt;=3.10 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from coveralls==0.5-&gt;datascience)
+Requirement already satisfied: docopt&gt;=0.6.1 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from coveralls==0.5-&gt;datascience)
+Requirement already satisfied: py&gt;=1.4.33 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from pytest-&gt;datascience)
+Requirement already satisfied: six&gt;=1.5 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from sphinx-&gt;datascience)
+Requirement already satisfied: Jinja2&gt;=2.3 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from sphinx-&gt;datascience)
+Requirement already satisfied: Pygments&gt;=2.0 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from sphinx-&gt;datascience)
+Requirement already satisfied: docutils&gt;=0.11 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from sphinx-&gt;datascience)
+Requirement already satisfied: snowballstemmer&gt;=1.1 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from sphinx-&gt;datascience)
+Requirement already satisfied: babel!=2.0,&gt;=1.3 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from sphinx-&gt;datascience)
+Requirement already satisfied: alabaster&lt;0.8,&gt;=0.7 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from sphinx-&gt;datascience)
+Requirement already satisfied: imagesize in /Users/wxs/anaconda3/lib/python3.6/site-packages (from sphinx-&gt;datascience)
+Requirement already satisfied: sphinxcontrib-websupport in /Users/wxs/anaconda3/lib/python3.6/site-packages (from sphinx-&gt;datascience)
+Requirement already satisfied: chardet&lt;3.1.0,&gt;=3.0.2 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from requests&gt;=1.0.0-&gt;coveralls==0.5-&gt;datascience)
+Requirement already satisfied: idna&lt;2.7,&gt;=2.5 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from requests&gt;=1.0.0-&gt;coveralls==0.5-&gt;datascience)
+Requirement already satisfied: urllib3&lt;1.23,&gt;=1.21.1 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from requests&gt;=1.0.0-&gt;coveralls==0.5-&gt;datascience)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from requests&gt;=1.0.0-&gt;coveralls==0.5-&gt;datascience)
+Requirement already satisfied: MarkupSafe&gt;=0.23 in /Users/wxs/anaconda3/lib/python3.6/site-packages (from Jinja2&gt;=2.3-&gt;sphinx-&gt;datascience)
+Requirement already satisfied: pytz&gt;=0a in /Users/wxs/anaconda3/lib/python3.6/site-packages (from babel!=2.0,&gt;=1.3-&gt;sphinx-&gt;datascience)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[64]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import code libraries or &quot;modules&quot; in Python lingo</span>
@@ -11805,8 +11858,7 @@ div#notebook {
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -11817,7 +11869,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[132]:</div>
+<div class="prompt input_prompt">In&nbsp;[65]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">flowers</span> <span class="o">=</span> <span class="n">Table</span><span class="p">()</span><span class="o">.</span><span class="n">with_columns</span><span class="p">(</span>
@@ -11837,7 +11889,9 @@ div#notebook {
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[132]:</div>
+
+<div class="prompt output_prompt">Out[65]:</div>
+
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -11869,8 +11923,7 @@ div#notebook {
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -11887,7 +11940,7 @@ Columns of the table represent features of objects (in this case, name, number o
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[133]:</div>
+<div class="prompt input_prompt">In&nbsp;[66]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">flowers</span><span class="o">.</span><span class="n">num_rows</span><span class="p">)</span>       <span class="c1"># number of rows</span>
@@ -11903,7 +11956,9 @@ Columns of the table represent features of objects (in this case, name, number o
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
+
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>3
@@ -11918,7 +11973,7 @@ Columns of the table represent features of objects (in this case, name, number o
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[134]:</div>
+<div class="prompt input_prompt">In&nbsp;[67]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">flowers</span><span class="o">.</span><span class="n">labels</span>     <span class="c1"># names of columns</span>
@@ -11933,7 +11988,9 @@ Columns of the table represent features of objects (in this case, name, number o
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[134]:</div>
+
+<div class="prompt output_prompt">Out[67]:</div>
+
 
 
 
@@ -11949,7 +12006,7 @@ Columns of the table represent features of objects (in this case, name, number o
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[135]:</div>
+<div class="prompt input_prompt">In&nbsp;[68]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">flowers</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">)</span>     <span class="c1"># extract a column</span>
@@ -11964,12 +12021,14 @@ Columns of the table represent features of objects (in this case, name, number o
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[135]:</div>
+
+<div class="prompt output_prompt">Out[68]:</div>
+
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([&#39;lotus&#39;, &#39;sunflower&#39;, &#39;rose&#39;], 
+<pre>array([&#39;lotus&#39;, &#39;sunflower&#39;, &#39;rose&#39;],
       dtype=&#39;&lt;U9&#39;)</pre>
 </div>
 
@@ -11981,7 +12040,7 @@ Columns of the table represent features of objects (in this case, name, number o
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[136]:</div>
+<div class="prompt input_prompt">In&nbsp;[69]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">flowers</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>    
@@ -12000,7 +12059,9 @@ Columns of the table represent features of objects (in this case, name, number o
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[136]:</div>
+
+<div class="prompt output_prompt">Out[69]:</div>
+
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -12034,7 +12095,7 @@ Columns of the table represent features of objects (in this case, name, number o
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[137]:</div>
+<div class="prompt input_prompt">In&nbsp;[70]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The table  flowers  is not changed</span>
@@ -12051,7 +12112,9 @@ Columns of the table represent features of objects (in this case, name, number o
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[137]:</div>
+
+<div class="prompt output_prompt">Out[70]:</div>
+
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -12085,7 +12148,7 @@ Columns of the table represent features of objects (in this case, name, number o
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[138]:</div>
+<div class="prompt input_prompt">In&nbsp;[71]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># But we can define new table</span>
@@ -12103,7 +12166,9 @@ Columns of the table represent features of objects (in this case, name, number o
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[138]:</div>
+
+<div class="prompt output_prompt">Out[71]:</div>
+
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -12137,12 +12202,12 @@ Columns of the table represent features of objects (in this case, name, number o
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[139]:</div>
+<div class="prompt input_prompt">In&nbsp;[72]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">flowers</span><span class="o">.</span><span class="n">take</span><span class="p">(</span><span class="n">make_array</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>    
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Make a new table that has only the first two rows</span>
 
-<span class="c1"># make a new table that has only the first two rows</span>
+<span class="n">flowers</span><span class="o">.</span><span class="n">take</span><span class="p">(</span><span class="n">make_array</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>    
 </pre></div>
 
 </div>
@@ -12154,7 +12219,9 @@ Columns of the table represent features of objects (in this case, name, number o
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[139]:</div>
+
+<div class="prompt output_prompt">Out[72]:</div>
+
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -12184,13 +12251,13 @@ Columns of the table represent features of objects (in this case, name, number o
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[140]:</div>
+<div class="prompt input_prompt">In&nbsp;[73]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sorted_flowers</span> <span class="o">=</span> <span class="n">flowers</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="s2">&quot;petals&quot;</span><span class="p">)</span>
-<span class="n">sorted_flowers</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Sort the column &quot;petals&quot; and shuffels the other columns along</span>
 
-<span class="c1"># sort the column &quot;petals&quot; and shuffels the other columns along</span>
+<span class="n">sorted_flowers</span> <span class="o">=</span> <span class="n">flowers</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="s2">&quot;petals&quot;</span><span class="p">)</span>
+<span class="n">sorted_flowers</span>
 </pre></div>
 
 </div>
@@ -12202,7 +12269,9 @@ Columns of the table represent features of objects (in this case, name, number o
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[140]:</div>
+
+<div class="prompt output_prompt">Out[73]:</div>
+
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -12236,7 +12305,7 @@ Columns of the table represent features of objects (in this case, name, number o
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[141]:</div>
+<div class="prompt input_prompt">In&nbsp;[74]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">flowers</span>
@@ -12253,7 +12322,9 @@ Columns of the table represent features of objects (in this case, name, number o
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[141]:</div>
+
+<div class="prompt output_prompt">Out[74]:</div>
+
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -12287,12 +12358,12 @@ Columns of the table represent features of objects (in this case, name, number o
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[142]:</div>
+<div class="prompt input_prompt">In&nbsp;[75]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">flowers</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="s2">&quot;petals&quot;</span><span class="p">,</span> <span class="n">are</span><span class="o">.</span><span class="n">above</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>    
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Select rows by values of a column</span>
 
-<span class="c1"># select rows by values of a column</span>
+<span class="n">flowers</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="s2">&quot;petals&quot;</span><span class="p">,</span> <span class="n">are</span><span class="o">.</span><span class="n">above</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>    
 </pre></div>
 
 </div>
@@ -12304,7 +12375,9 @@ Columns of the table represent features of objects (in this case, name, number o
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[142]:</div>
+
+<div class="prompt output_prompt">Out[75]:</div>
+
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -12332,8 +12405,7 @@ Columns of the table represent features of objects (in this case, name, number o
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12361,8 +12433,7 @@ Columns of the table represent features of objects (in this case, name, number o
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12377,7 +12448,7 @@ titanic = Table.read_table("titanic3.csv")</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[143]:</div>
+<div class="prompt input_prompt">In&nbsp;[76]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import some new methods for class Table</span>
@@ -12405,7 +12476,9 @@ titanic = Table.read_table("titanic3.csv")</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[143]:</div>
+
+<div class="prompt output_prompt">Out[76]:</div>
+
 
 
 
@@ -12421,7 +12494,7 @@ titanic = Table.read_table("titanic3.csv")</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[144]:</div>
+<div class="prompt input_prompt">In&nbsp;[77]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Read the data into a table &quot;titanic&quot;</span>
@@ -12438,12 +12511,12 @@ titanic = Table.read_table("titanic3.csv")</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[145]:</div>
+<div class="prompt input_prompt">In&nbsp;[78]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Display the first three rows</span>
 
-<span class="n">titanic</span><span class="o">.</span><span class="n">take</span><span class="p">(</span><span class="n">make_array</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+<span class="n">titanic</span><span class="o">.</span><span class="n">take</span><span class="p">(</span><span class="n">make_array</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -12455,7 +12528,9 @@ titanic = Table.read_table("titanic3.csv")</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[145]:</div>
+
+<div class="prompt output_prompt">Out[78]:</div>
+
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -12467,15 +12542,15 @@ titanic = Table.read_table("titanic3.csv")</p>
     </thead>
     <tbody>
         <tr>
-            <td>1     </td> <td>1       </td> <td>Allison, Master. Hudson Trevor      </td> <td>male  </td> <td>0.9167</td> <td>1    </td> <td>2    </td> <td>113781</td> <td>151.55</td> <td>C22 C26</td> <td>S       </td> <td>11  </td> <td>nan </td> <td>Montreal, PQ / Chesterville, ON</td>
+            <td>1     </td> <td>1       </td> <td>Allen, Miss. Elisabeth Walton </td> <td>female</td> <td>29    </td> <td>0    </td> <td>0    </td> <td>24160 </td> <td>211.338</td> <td>B5     </td> <td>S       </td> <td>2   </td> <td>nan </td> <td>St Louis, MO                   </td>
         </tr>
     </tbody>
         <tr>
-            <td>1     </td> <td>0       </td> <td>Allison, Miss. Helen Loraine        </td> <td>female</td> <td>2     </td> <td>1    </td> <td>2    </td> <td>113781</td> <td>151.55</td> <td>C22 C26</td> <td>S       </td> <td>nan </td> <td>nan </td> <td>Montreal, PQ / Chesterville, ON</td>
+            <td>1     </td> <td>1       </td> <td>Allison, Master. Hudson Trevor</td> <td>male  </td> <td>0.9167</td> <td>1    </td> <td>2    </td> <td>113781</td> <td>151.55 </td> <td>C22 C26</td> <td>S       </td> <td>11  </td> <td>nan </td> <td>Montreal, PQ / Chesterville, ON</td>
         </tr>
     </tbody>
         <tr>
-            <td>1     </td> <td>0       </td> <td>Allison, Mr. Hudson Joshua Creighton</td> <td>male  </td> <td>30    </td> <td>1    </td> <td>2    </td> <td>113781</td> <td>151.55</td> <td>C22 C26</td> <td>S       </td> <td>nan </td> <td>135 </td> <td>Montreal, PQ / Chesterville, ON</td>
+            <td>1     </td> <td>0       </td> <td>Allison, Miss. Helen Loraine  </td> <td>female</td> <td>2     </td> <td>1    </td> <td>2    </td> <td>113781</td> <td>151.55 </td> <td>C22 C26</td> <td>S       </td> <td>nan </td> <td>nan </td> <td>Montreal, PQ / Chesterville, ON</td>
         </tr>
     </tbody>
 </table>
@@ -12487,8 +12562,7 @@ titanic = Table.read_table("titanic3.csv")</p>
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12502,7 +12576,7 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[146]:</div>
+<div class="prompt input_prompt">In&nbsp;[79]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s see how big the table is</span>
@@ -12521,7 +12595,9 @@ Columns correspond to properties (or "features") of passengers</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[146]:</div>
+
+<div class="prompt output_prompt">Out[79]:</div>
+
 
 
 
@@ -12537,7 +12613,7 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[147]:</div>
+<div class="prompt input_prompt">In&nbsp;[80]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># So the table &quot;titanic&quot; has 1,310 rows, numbered 0..1309</span>
@@ -12557,7 +12633,9 @@ Columns correspond to properties (or "features") of passengers</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[147]:</div>
+
+<div class="prompt output_prompt">Out[80]:</div>
+
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -12583,7 +12661,7 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[148]:</div>
+<div class="prompt input_prompt">In&nbsp;[81]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># &quot;nan&quot; is a code for &quot;missing&quot;</span>
@@ -12605,7 +12683,9 @@ Columns correspond to properties (or "features") of passengers</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[148]:</div>
+
+<div class="prompt output_prompt">Out[81]:</div>
+
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -12631,7 +12711,7 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[149]:</div>
+<div class="prompt input_prompt">In&nbsp;[82]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Complication:</span>
@@ -12653,7 +12733,9 @@ Columns correspond to properties (or "features") of passengers</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[149]:</div>
+
+<div class="prompt output_prompt">Out[82]:</div>
+
 
 
 
@@ -12680,8 +12762,7 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12699,8 +12780,7 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12710,14 +12790,12 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[150]:</div>
+<div class="prompt input_prompt">In&nbsp;[83]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Survival rate - what fraction of passengers survived?</span>
 
 <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">titanic</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;survived&quot;</span><span class="p">))</span>
-
-<span class="c1"># Ignore the warning</span>
 </pre></div>
 
 </div>
@@ -12729,7 +12807,9 @@ Columns correspond to properties (or "features") of passengers</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[150]:</div>
+
+<div class="prompt output_prompt">Out[83]:</div>
+
 
 
 
@@ -12745,7 +12825,7 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[151]:</div>
+<div class="prompt input_prompt">In&nbsp;[84]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># To get the percentage of survivors</span>
@@ -12762,7 +12842,9 @@ Columns correspond to properties (or "features") of passengers</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[151]:</div>
+
+<div class="prompt output_prompt">Out[84]:</div>
+
 
 
 
@@ -12778,7 +12860,7 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[152]:</div>
+<div class="prompt input_prompt">In&nbsp;[85]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># What&#39;s the average age?</span>
@@ -12797,7 +12879,9 @@ Columns correspond to properties (or "features") of passengers</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[152]:</div>
+
+<div class="prompt output_prompt">Out[85]:</div>
+
 
 
 
@@ -12813,7 +12897,7 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[153]:</div>
+<div class="prompt input_prompt">In&nbsp;[86]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s compute the average age for passengers with age present</span>
@@ -12832,7 +12916,9 @@ Columns correspond to properties (or "features") of passengers</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[153]:</div>
+
+<div class="prompt output_prompt">Out[86]:</div>
+
 
 
 
@@ -12848,7 +12934,7 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[154]:</div>
+<div class="prompt input_prompt">In&nbsp;[87]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s see if there is a difference in the average age between males and females</span>
@@ -12867,7 +12953,9 @@ Columns correspond to properties (or "features") of passengers</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[154]:</div>
+
+<div class="prompt output_prompt">Out[87]:</div>
+
 
 
 
@@ -12883,7 +12971,7 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[155]:</div>
+<div class="prompt input_prompt">In&nbsp;[88]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">round</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">titanic_sap</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="s2">&quot;sex&quot;</span><span class="p">,</span> <span class="n">are</span><span class="o">.</span><span class="n">equal_to</span><span class="p">(</span><span class="s2">&quot;male&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;age&quot;</span><span class="p">)))</span>
@@ -12898,7 +12986,9 @@ Columns correspond to properties (or "features") of passengers</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[155]:</div>
+
+<div class="prompt output_prompt">Out[88]:</div>
+
 
 
 
@@ -12914,7 +13004,7 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[156]:</div>
+<div class="prompt input_prompt">In&nbsp;[89]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">round</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">titanic_sap</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="s2">&quot;sex&quot;</span><span class="p">,</span> <span class="n">are</span><span class="o">.</span><span class="n">equal_to</span><span class="p">(</span><span class="s2">&quot;female&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;age&quot;</span><span class="p">)))</span>
@@ -12931,7 +13021,9 @@ Columns correspond to properties (or "features") of passengers</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[156]:</div>
+
+<div class="prompt output_prompt">Out[89]:</div>
+
 
 
 
@@ -12947,7 +13039,7 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[157]:</div>
+<div class="prompt input_prompt">In&nbsp;[90]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s look at age versus cabin class</span>
@@ -12964,7 +13056,9 @@ Columns correspond to properties (or "features") of passengers</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[157]:</div>
+
+<div class="prompt output_prompt">Out[90]:</div>
+
 
 
 
@@ -12980,7 +13074,7 @@ Columns correspond to properties (or "features") of passengers</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[158]:</div>
+<div class="prompt input_prompt">In&nbsp;[91]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">round</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">titanic_sap</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="s2">&quot;pclass&quot;</span><span class="p">,</span> <span class="n">are</span><span class="o">.</span><span class="n">equal_to</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;age&quot;</span><span class="p">)))</span>
@@ -13000,7 +13094,9 @@ Columns correspond to properties (or "features") of passengers</p>
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[158]:</div>
+
+<div class="prompt output_prompt">Out[91]:</div>
+
 
 
 
@@ -13010,6 +13106,22 @@ Columns correspond to properties (or "features") of passengers</p>
 
 </div>
 
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[92]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s save the titanic table for future use</span>
+
+<span class="n">titanic_table_pathname</span> <span class="o">=</span> <span class="n">data_dir</span> <span class="o">+</span> <span class="s2">&quot;titanic3-table.csv&quot;</span>
+<span class="n">titanic</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">&quot;titanic3_table_pathname&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
 </div>
 </div>
 
