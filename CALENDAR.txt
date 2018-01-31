@@ -20,3 +20,17 @@ F Jan 12: Finish python-intro-part3-1-8-2017. Start on
           summarizing-visualizing-1-11-2018
 
 M Jan 15: MLK day
+
+W Jan 17: Summarizing / visualizing categorical features
+
+F Jan 29: Histograms, Looking at pairs of categorical features (start)
+
+M Jan 22: Looking at pairs of categorical features; iteration;
+          defining functions
+
+W Jan 24: Defining functions; Looking at a pair (categorical /
+          numerical) variables
+
+F Jan 26: Looking at two numerical variables
+
+M Jan 29: Visalization: the good, the bad, and the ugly

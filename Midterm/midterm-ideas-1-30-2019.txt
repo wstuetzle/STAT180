@@ -1,0 +1,45 @@
+Idea for STAT180 midterm (1-30-2018)
+====================================
+
+What should they have learned?
+
+- Working with numbers and arrays, and tables
+
+Write a function pick_kth(x, k) That takes as its argument an array x
+and an int k and returns an array containing every k-th element of x
+
+Compute pivot table for given data table
+Compute a conditional distribution
+
+Interpretation of histogram
+
+Sketch conditional mean
+
+Write a function that returns the k-th largest element of a feature in
+a table and returns the smallest element if the number of elements is
+< k
+
+Add a column to a table that's the row average
+
+Add a row to a table that's the row average
+
+Transpose a table
+
+For the bay data, write a function that computee the consitional mean
+of beith weight for given maternal age and returns np.nan is there are
+no mothers with this maternal age.
+
+scatterplot of maternal pregnany weight v Matenal Height.Sketch the
+conditional mean curve
+
+Compute mean birth weight of smokers
+
+Hw would you compute the mean differenec between the birthweights for
+children of smokers and children of non-smokers?
+
+Write a function that counts the number of births for which both gets
+days and birthweights are > median
+
+
+
+
