@@ -34,3 +34,9 @@ W Jan 24: Defining functions; Looking at a pair (categorical /
 F Jan 26: Looking at two numerical variables
 
 M Jan 29: Visalization: the good, the bad, and the ugly
+
+W Jan 31: Establishing causality: Randomization and permutation tests
+
+F Feb 02: Randomization and permutation tests
+
+M Feb 05: Midterm exam

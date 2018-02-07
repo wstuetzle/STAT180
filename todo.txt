@@ -2,6 +2,10 @@ Todo
 ====
 Lab 2: remove 2.1.1?
 
-Problem with modules
+Problem with modules - students should not have to install data science
 
-Debugger / Spyder
+Debugger / Spyde
+
+Get automatic feedback / grading going
+
+The data science graphics sucks. need to have at least the functionality of basic R graphics - like adding curves, points, titles, axis labels,…
