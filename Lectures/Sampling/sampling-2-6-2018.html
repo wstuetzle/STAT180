@@ -11784,7 +11784,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[146]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import modules </span>
@@ -11836,7 +11836,7 @@ A cheatsheet for the datascience module is <a href="https://github.com/wstuetzle
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[160]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># delay_tab = Table.read_table(&quot;united.csv&quot;)</span>
@@ -11893,7 +11893,7 @@ A cheatsheet for the datascience module is <a href="https://github.com/wstuetzle
 </div>
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[160]:</div>
+<div class="prompt output_prompt">Out[15]:</div>
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -11938,49 +11938,14 @@ A cheatsheet for the datascience module is <a href="https://github.com/wstuetzle
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>For our experiment we look at the delays</p>
+<p>For our experiment we look at the delays. Here is a histogram</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[148]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;min = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))))</span>
-<span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;max = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))))</span>
-<span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;mean = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))))</span>
-<span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;median = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">median</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))))</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>min = -10
-max = 299
-mean = 15.8086221963
-median = 2.0
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[149]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">delay_tab</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">,</span> <span class="n">bins</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span> <span class="mi">300</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
@@ -12100,7 +12065,7 @@ JalAhrskFej/ATX5FO2LYiSYAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[150]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s see how many flights took off early</span>
@@ -12114,9 +12079,63 @@ JalAhrskFej/ATX5FO2LYiSYAAAAAElFTkSuQmCC
 <span class="n">delay_tab</span> <span class="o">=</span> <span class="n">delay_tab</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">,</span> <span class="n">are</span><span class="o">.</span><span class="n">below</span><span class="p">(</span><span class="mi">100</span><span class="p">))</span>
 
 <span class="n">N</span> <span class="o">=</span> <span class="n">delay_tab</span><span class="o">.</span><span class="n">num_rows</span>
+<span class="n">N</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[18]:</div>
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>13217</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;min = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))))</span>
+<span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;max = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))))</span>
+<span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;mean = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))))</span>
+<span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;median = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">median</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>min = -10
+max = 99
+mean = 10.5871226451
+median = 2.0
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -12126,11 +12145,11 @@ JalAhrskFej/ATX5FO2LYiSYAAAAAElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong> We want to perform an experiment to find out how accurately we can estimate the mean delay for all 13,732 flights from the delays for a simple random sample of the flights </strong></p>
+<p><strong> We want to perform an experiment to find out how accurately we can estimate the mean delay for the13,217 flights from the delays for a simple random sample of the flights </strong></p>
 <p>("Simple random sample" means all possible samples are equally likely to be chosen.</p>
 <p>In our lingo,</p>
 <ul>
-<li>the N = 13,732 flights are the population of interest</li>
+<li>the N = 13,217 flights are the population of interest</li>
 <li>the population parameter of interest is the mean delay</li>
 <li>we will estimate the population mean by the mean of a simple random sample of a chosen size n from the population</li>
 <li>We will first simulate sampling with replacement. </li>
@@ -12142,7 +12161,7 @@ JalAhrskFej/ATX5FO2LYiSYAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[151]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s see some examples for sample size n = 16</span>
@@ -12174,11 +12193,11 @@ JalAhrskFej/ATX5FO2LYiSYAAAAAElFTkSuQmCC
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>population mean = 10.5871226451
-estimate =  20.125
-estimate =  6.75
-estimate =  7.9375
-estimate =  14.25
-estimate =  9.5625
+estimate =  11.0
+estimate =  4.25
+estimate =  7.4375
+estimate =  9.9375
+estimate =  11.8125
 </pre>
 </div>
 </div>
@@ -12204,12 +12223,13 @@ estimate =  9.5625
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[152]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s try n = 1064</span>
 
 <span class="n">population_mean</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))</span>
+<span class="n">population_median</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">median</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;population mean = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">population_mean</span><span class="p">))</span>
 
 <span class="n">n</span> <span class="o">=</span> <span class="mi">1064</span>
@@ -12236,11 +12256,11 @@ estimate =  9.5625
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>population mean = 10.5871226451
-estimate =  10.8477443609
-estimate =  9.89943609023
-estimate =  11.3843984962
-estimate =  9.95394736842
-estimate =  11.5197368421
+estimate =  11.4915413534
+estimate =  9.30545112782
+estimate =  11.3937969925
+estimate =  10.9755639098
+estimate =  10.8054511278
 </pre>
 </div>
 </div>
@@ -12254,14 +12274,14 @@ estimate =  11.5197368421
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="-Assessing-the-performance-"><span style="color:blue"> Assessing the performance </span><a class="anchor-link" href="#-Assessing-the-performance-">&#182;</a></h3><p>There are finitely many possible samples (N^n for sampling with replacement) which are all equally likely.</p>
+<h3 id="-Assessing-the-performance-of-the-sample-mean-as-an-estimate-of-the-population-mean-"><span style="color:blue"> Assessing the performance of the sample mean as an estimate of the population mean </span><a class="anchor-link" href="#-Assessing-the-performance-of-the-sample-mean-as-an-estimate-of-the-population-mean-">&#182;</a></h3><p>There are finitely many possible samples (N^n for sampling with replacement) which are all equally likely.</p>
 <p>Let's take a look at</p>
 <ul>
 <li>the average of the sample means  (for the N^n samples)</li>
 <li>the distribution (histogram) of the sample means (for the N^n samples)</li>
 <li>the standard deviation of the sample means (for the N^n samples)</li>
 </ul>
-<p>for different sample sizes (n = 4, 14, 64, 256, 1024)</p>
+<p>for different sample sizes (n = 4, 16, 64, 256, 1024)</p>
 <p>In our experiment we can't average over all N^n sample - there are too many of them.
 So instead we randomly pick a large number of them.</p>
 
@@ -12270,7 +12290,7 @@ So instead we randomly pick a large number of them.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[153]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Here is a function that evaluates a statistic (think np.mean) for</span>
@@ -12293,30 +12313,132 @@ So instead we randomly pick a large number of them.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[161]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Calculate the sample means for 1,000,000 randomly drawn samples of sizes </span>
-<span class="c1"># 4, 16, 64, 256, 1024</span>
+<span class="c1"># 4, 16, 64, 256, 1024 with replacement</span>
 
-<span class="n">true_value</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))</span>
-<span class="n">stat</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span>
-<span class="n">sample_sizes</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">1024</span><span class="p">]</span>
-<span class="n">nrep</span> <span class="o">=</span> <span class="mi">1000000</span>  <span class="c1"># number of samples</span>
-<span class="n">wr</span> <span class="o">=</span> <span class="kc">True</span>       <span class="c1"># with replacement</span>
+<span class="c1"># sample_sizes = [4, 16, 64, 256, 1024]</span>
+<span class="c1"># nrep = 1000000  # number of samples</span>
 
-<span class="c1"># This calculation takeas a while. I therefoee pre-computed the tbale and saved it.</span>
+<span class="c1"># wr = True       # with replacement</span>
+<span class="c1"># stat = np.mean</span>
+
+<span class="c1"># This calculation takes a while. I therefoee pre-computed the table and saved it.</span>
 
 <span class="c1"># estimates_tab = Table()</span>
 <span class="c1"># for n in sample_sizes:</span>
 <span class="c1">#    estimates = evaluate_statistic_for_random_samples(stat, n, nrep, wr)</span>
 <span class="c1">#    estimates_tab = estimates_tab.with_column(str(n), estimates)</span>
-<span class="c1"># estimates_tab.to_csv(&quot;sample-means-N=1000000-n=4-16-64-256-1024.csv&quot;)</span>
+<span class="c1"># estimates_tab.to_csv(&quot;mean-with-replacement.csv&quot;)</span>
+</pre></div>
 
-<span class="c1"># estimates_tab = Table.read_table(&quot;sample-means-N=1000000-n=4-16-64-256-1024.csv&quot;)</span>
-<span class="n">estimates_tab</span> <span class="o">=</span> <span class="n">Table</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span>\
-<span class="s2">&quot;https://github.com/wstuetzle/STAT180/raw/master/Lectures/Sampling/sample-means-N%3D1000000-n%3D4-16-64-256-1024.csv&quot;</span><span class="p">)</span>
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Calculate the sample medians for 1,000,000 randomly drawn samples of sizes </span>
+<span class="c1"># 4, 16, 64, 256, 1024 with replacement</span>
+
+<span class="c1"># sample_sizes = [4, 16, 64, 256, 1024]</span>
+<span class="c1"># nrep = 1000000  # number of samples</span>
+
+<span class="c1"># wr = True       # with replacement</span>
+<span class="c1"># stat = np.median</span>
+
+<span class="c1"># estimates_tab = Table()</span>
+<span class="c1"># for n in sample_sizes:</span>
+<span class="c1">#     estimates = evaluate_statistic_for_random_samples(stat, n, nrep, wr)</span>
+<span class="c1">#    estimates_tab = estimates_tab.with_column(str(n), estimates)</span>
+<span class="c1"># estimates_tab.to_csv(&quot;median-with-replacement.csv&quot;)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Calculate the sample means for 1,000,000 randomly drawn samples of sizes </span>
+<span class="c1"># 4, 16, 64, 256, 1024 without replacement</span>
+
+<span class="c1"># sample_sizes = [4, 16, 64, 256, 1024]</span>
+<span class="c1"># nrep = 1000000   # number of samples</span>
+
+<span class="c1"># wr = False       # without replacement</span>
+<span class="c1"># stat = np.mean</span>
+
+<span class="c1"># estimates_tab = Table()</span>
+<span class="c1"># for n in sample_sizes:</span>
+<span class="c1">#     estimates = evaluate_statistic_for_random_samples(stat, n, nrep, wr)</span>
+<span class="c1">#     estimates_tab = estimates_tab.with_column(str(n), estimates)</span>
+<span class="c1"># estimates_tab.to_csv(&quot;mean-without-replacement.csv&quot;)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Calculate the sample medians for 1,000,000 randomly drawn samples of sizes </span>
+<span class="c1"># 4, 16, 64, 256, 1024 without replacement</span>
+
+<span class="c1"># sample_sizes = [4, 16, 64, 256, 1024]</span>
+<span class="c1"># nrep = 1000000   # number of samples</span>
+
+<span class="c1"># wr = False       # without replacement</span>
+<span class="c1"># stat = np.median</span>
+
+<span class="c1"># estimates_tab = Table()</span>
+<span class="c1"># for n in sample_sizes:</span>
+<span class="c1">#     estimates = evaluate_statistic_for_random_samples(stat, n, nrep, wr)</span>
+<span class="c1">#     estimates_tab = estimates_tab.with_column(str(n), estimates)</span>
+<span class="c1"># estimates_tab.to_csv(&quot;median-without-replacement.csv&quot;)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="-0.-Read-table-of-sample-means-for-samples-drawn-without-replacement-"><span style="color:purple"> 0. Read table of sample means for samples drawn without replacement </span><a class="anchor-link" href="#-0.-Read-table-of-sample-means-for-samples-drawn-without-replacement-">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pathname</span> <span class="o">=</span> <span class="s2">&quot;https://github.com/wstuetzle/STAT180/raw/master/Lectures/Sampling/mean-with-replacement.csv&quot;</span>
+<span class="c1"># pathname = &quot;https://github.com/wstuetzle/STAT180/raw/master/Lectures/Sampling/median-with-replacement.csv&quot;</span>
+<span class="n">estimates_tab</span> <span class="o">=</span> <span class="n">Table</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="n">pathname</span><span class="p">)</span>
+<span class="c1"># estimates_tab = Table.read_table(&quot;mean-with-replacement.csv&quot;)</span>
 <span class="n">estimates_tab</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">stat</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span>
+<span class="n">population_parameter</span> <span class="o">=</span> <span class="n">stat</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))</span>
+<span class="n">sample_sizes</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">1024</span><span class="p">]</span>
 </pre></div>
 
 </div>
@@ -12380,17 +12502,14 @@ So instead we randomly pick a large number of them.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[156]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Compute the average of the sample means for the different sample sizes</span>
-
-<span class="n">ns</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">sample_sizes</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ns</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">sample_sizes</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">ns</span><span class="p">):</span>
     <span class="n">ave_of_estimates</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">estimates_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;n = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">sample_sizes</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot;  average_of_estimates = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">ave_of_estimates</span><span class="p">))</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;population mean = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">population_mean</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;population parameter = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">population_mean</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -12410,7 +12529,7 @@ n = 16  average_of_estimates = 10.5883341875
 n = 64  average_of_estimates = 10.5849340625
 n = 256  average_of_estimates = 10.5899295039
 n = 1024  average_of_estimates = 10.5875377588
-population mean = 10.5871226451
+population parameter = 10.5871226451
 </pre>
 </div>
 </div>
@@ -12424,9 +12543,8 @@ population mean = 10.5871226451
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Fact (can be shown mathematically and is supported by our experiment):</p>
-<p>The average (over all possible samples) of the sample means is the population mean</p>
-<h2 id="-Finding-1:-The-sample-mean-is-an-unbiased-estimate-of-the-population-mean-"><span style="color:purple"> Finding 1: The sample mean is an unbiased estimate of the population mean </span><a class="anchor-link" href="#-Finding-1:-The-sample-mean-is-an-unbiased-estimate-of-the-population-mean-">&#182;</a></h2>
+<h2 id="-Finding-1:-The-sample-mean-is-an-unbiased-estimate-of-the-population-mean-"><span style="color:purple"> Finding 1: The sample mean is an unbiased estimate of the population mean </span><a class="anchor-link" href="#-Finding-1:-The-sample-mean-is-an-unbiased-estimate-of-the-population-mean-">&#182;</a></h2><p>(Can be proven mathematically)</p>
+
 </div>
 </div>
 </div>
@@ -12435,14 +12553,14 @@ population mean = 10.5871226451
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="-2.-Draw-histograms-of-sample-means-for-the-different-sample-sizes-"><span style="color:purple"> 2. Draw histograms of sample means for the different sample sizes </span><a class="anchor-link" href="#-2.-Draw-histograms-of-sample-means-for-the-different-sample-sizes-">&#182;</a></h2><p>First all on the same scale</p>
+<h2 id="-2.-Draw-histograms-of-the-sample-means-for-the-different-sample-sizes-"><span style="color:purple"> 2. Draw histograms of the sample means for the different sample sizes </span><a class="anchor-link" href="#-2.-Draw-histograms-of-the-sample-means-for-the-different-sample-sizes-">&#182;</a></h2><p>First all on the same scale</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[157]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># </span>
@@ -12897,7 +13015,7 @@ i74ktYhFX5JaxKIvSS3y/wFpID0HT3JcogAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[158]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Now draw histograms on individual scales</span>
@@ -13451,7 +13569,8 @@ l6QG+X9XmYHYqe9NEAAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="-Finding-2b:-As-the-sample-size-increases,-the-distribution-(histogram)-of-the-sample-means-approaches-a-bell-shaped-curve&quot;--which-is-called-the-Gaussian-(or-&quot;normal&quot;)-distribution.-"><span style="color:purple"> Finding 2b: As the sample size increases, the distribution (histogram) of the sample means approaches a bell shaped curve"  which is called the Gaussian (or "normal") distribution. </span><a class="anchor-link" href="#-Finding-2b:-As-the-sample-size-increases,-the-distribution-(histogram)-of-the-sample-means-approaches-a-bell-shaped-curve&quot;--which-is-called-the-Gaussian-(or-&quot;normal&quot;)-distribution.-">&#182;</a></h2>
+<h2 id="-Finding-2b:-As-the-sample-size-increases,-the-distribution-(histogram)-of-the-sample-means-approaches-a-bell-shaped-curve&quot;--which-is-called-the-Gaussian-(or-&quot;normal&quot;)-distribution.-"><span style="color:purple"> Finding 2b: As the sample size increases, the distribution (histogram) of the sample means approaches a bell shaped curve"  which is called the Gaussian (or "normal") distribution. </span><a class="anchor-link" href="#-Finding-2b:-As-the-sample-size-increases,-the-distribution-(histogram)-of-the-sample-means-approaches-a-bell-shaped-curve&quot;--which-is-called-the-Gaussian-(or-&quot;normal&quot;)-distribution.-">&#182;</a></h2><p>(Can be proven mathematically)</p>
+
 </div>
 </div>
 </div>
@@ -13460,22 +13579,22 @@ l6QG+X9XmYHYqe9NEAAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2><span style="color:purple"> 3. Calulate the std of the sample means for the different sample sizes</h2>
+<h2><span style="color:purple"> 3. Calculate the std of the sample means (also called the "standard error") for the different sample sizes</h2>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[159]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ns</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">sample_sizes</span><span class="p">)</span>
+<span class="n">population_std</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">ns</span><span class="p">):</span>
-    <span class="n">std_of_means</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">estimates_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;n = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">sample_sizes</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot;  std_of_sample_means = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">std_of_means</span><span class="p">))</span>
-    
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;population std = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))))</span>
+    <span class="n">std_of_estimates</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">estimates_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;n = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">sample_sizes</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot;  std_of_estimates = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">std_of_estimates</span><span class="p">),</span> <span class="n">end</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;  population std / n^0.5 = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">population_std</span> <span class="o">/</span> <span class="n">sample_sizes</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">**</span> <span class="mf">0.5</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -13490,12 +13609,11 @@ l6QG+X9XmYHYqe9NEAAAAABJRU5ErkJggg==
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>n = 4  std_of_sample_means = 10.6867565478
-n = 16  std_of_sample_means = 5.34508943055
-n = 64  std_of_sample_means = 2.66854616728
-n = 256  std_of_sample_means = 1.33579795361
-n = 1024  std_of_sample_means = 0.667293458143
-population std = 21.3639543727
+<pre>n = 4  std_of_estimates = 10.6867565478  population std / n^0.5 = 10.6819771863
+n = 16  std_of_estimates = 5.34508943055  population std / n^0.5 = 5.34098859317
+n = 64  std_of_estimates = 2.66854616728  population std / n^0.5 = 2.67049429659
+n = 256  std_of_estimates = 1.33579795361  population std / n^0.5 = 1.33524714829
+n = 1024  std_of_estimates = 0.667293458143  population std / n^0.5 = 0.667623574146
 </pre>
 </div>
 </div>
@@ -13510,9 +13628,86 @@ population std = 21.3639543727
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2><span style="color:purple"> Finding 3: The std of sample means of random samples of size n is population std / n^(1/2)</h2>
+<p>(Can be proven mathematically)</p>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="-4.-Calculate-the-fraction-of-sample-means-that-are-within-+--2-*-(std-of-sample-means)-from-the-population-mean-"><span style="color:purple"> 4. Calculate the fraction of sample means that are within +- 2 * (std of sample means) from the population mean </span><a class="anchor-link" href="#-4.-Calculate-the-fraction-of-sample-means-that-are-within-+--2-*-(std-of-sample-means)-from-the-population-mean-">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">population_std</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))</span>
+<span class="n">population_parameter</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">delay_tab</span><span class="o">.</span><span class="n">column</span><span class="p">(</span><span class="s2">&quot;Delay&quot;</span><span class="p">))</span>
+
+<span class="n">ns</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">sample_sizes</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">ns</span><span class="p">):</span>
+    <span class="n">lab</span> <span class="o">=</span> <span class="n">estimates_tab</span><span class="o">.</span><span class="n">labels</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="n">ni</span> <span class="o">=</span> <span class="n">sample_sizes</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="n">std_of_means</span> <span class="o">=</span> <span class="n">population_std</span> <span class="o">/</span> <span class="p">(</span><span class="n">ni</span> <span class="o">**</span> <span class="mf">0.5</span><span class="p">)</span>
+    <span class="n">estimates_within</span> <span class="o">=</span> <span class="n">estimates_tab</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">lab</span><span class="p">,</span> <span class="n">are</span><span class="o">.</span><span class="n">between</span><span class="p">((</span><span class="n">population_mean</span> <span class="o">-</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">std_of_means</span><span class="p">),</span>
+                                                            <span class="p">(</span><span class="n">population_mean</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">std_of_means</span><span class="p">)))</span>
+    <span class="n">fraction_within</span> <span class="o">=</span> <span class="n">estimates_within</span><span class="o">.</span><span class="n">num_rows</span> <span class="o">/</span> <span class="n">estimates_tab</span><span class="o">.</span><span class="n">num_rows</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;n = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">ni</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;  fraction within interval = &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">fraction_within</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>n = 4  fraction within interval = 0.955503
+n = 16  fraction within interval = 0.959824
+n = 64  fraction within interval = 0.956197
+n = 256  fraction within interval = 0.954879
+n = 1024  fraction within interval = 0.954883
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="-Finding-4:-About-95%-of-sample-means-are-within-+--2-*-(std-of-sample-means)-from-the-population-mean-"><span style="color:purple"> Finding 4: About 95% of sample means are within +- 2 * (std of sample means) from the population mean </span><a class="anchor-link" href="#-Finding-4:-About-95%-of-sample-means-are-within-+--2-*-(std-of-sample-means)-from-the-population-mean-">&#182;</a></h2><p>(This is a consequence of Finding 2b)</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
